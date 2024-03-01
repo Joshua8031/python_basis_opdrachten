@@ -1,9 +1,9 @@
 # Opdracht 1
-# Naam student:
-# Groep:
+# Naam student: Joshua
+# Groep: 4ITX1
 
 # Hier komt je code...
 
-my_dict = ...
+my_dict = {"joshua" : "jensen", "leeftijd": 20, "favoriete kleur": "geel"}
 
-print()
+print(my_dict)
