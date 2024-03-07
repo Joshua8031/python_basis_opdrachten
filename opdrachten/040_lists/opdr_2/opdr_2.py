@@ -1,15 +1,27 @@
 # Opdracht 2 lists
-# Naam student:
-# Groep:
+# Naam student: joshua
+# Groep: 4ITX1
 
 
 rivier_info = {
-    "rijn": ["nederland", "duitsland", "Frankrijk"],
-    "maas": ["nederland", "belgië", "duitsland"],
-    "nijl": ["egypte", "soedan", "oeganda"]
+    "Rijn": ["Nederland", "Duitsland", "Frankrijk"],
+    "Maas": ["Nederland", "België", "Duitsland"],
+    "Nijl": ["Egypte", "Soedan", "Oeganda"]
 }
 
-rivieren = list(rivier_info.keys())
-# rivieren is nu een list met alleen de riviernamen: ['rijn', 'maas', 'nijl']
+baraaaa = "Rijn"
+sisi = "Maas"
+lamar = "Nijl"
+rivier = list(rivier_info.keys())
 
-# Hier jouw code.....
+# print de naam van de eerste rivier
+print(baraaaa)
+print("De rivier", rivier[0].capitalize(), "stroomt door", rivier_info[rivier[0]][1].capitalize())
+
+# print de naam van de tweede rivier
+print(sisi)
+print("De rivier", rivier[0].capitalize(), "stroomt door", rivier_info[rivier[1]][1].capitalize())
+
+# print de naam van de derde rivier
+print(lamar)
+print("De rivier", rivier[0].capitalize(), "stroomt door", rivier_info[rivier[2]][2].capitalize())
