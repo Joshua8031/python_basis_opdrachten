@@ -19,3 +19,4 @@ Dit kan weer met maximaal 2 regels code!!
 output:
 
 >[3, 6, 9, 12, 15, 18]
+

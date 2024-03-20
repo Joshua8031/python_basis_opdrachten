@@ -16,3 +16,4 @@ Gebruik hiervoor de loop en het if-statement.
 
 Output:
 >[5, 6, 7, 8, 9, 10]
+
