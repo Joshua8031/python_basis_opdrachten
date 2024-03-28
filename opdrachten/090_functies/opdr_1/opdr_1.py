@@ -4,10 +4,10 @@
 
 
 def write_to_file(afile, atext):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+    fo = open(afile, "w")
+    fo.write(atext)
+    fo.close()
 
-my_tekst = "Schrijf dit maar even in een bestandje"
-my_file = "test.txt"
-write_to_file(my_file, my_tekst)
+write_to_file("test.txt","wagwan mensen")
+
+write_to_file("test1.txt","yo")
